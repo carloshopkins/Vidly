@@ -220,6 +220,26 @@
     <Compile Include="Migrations\201705111815509_ForeginKeyFix.Designer.cs">
       <DependentUpon>201705111815509_ForeginKeyFix.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201705112304085_AddNameFieldToMemberShipType.cs" />
+    <Compile Include="Migrations\201705112304085_AddNameFieldToMemberShipType.Designer.cs">
+      <DependentUpon>201705112304085_AddNameFieldToMemberShipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705122107095_SetNamesOfMembershipTypes.cs" />
+    <Compile Include="Migrations\201705122107095_SetNamesOfMembershipTypes.Designer.cs">
+      <DependentUpon>201705122107095_SetNamesOfMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705122157408_AddBirthDateColumn.cs" />
+    <Compile Include="Migrations\201705122157408_AddBirthDateColumn.Designer.cs">
+      <DependentUpon>201705122157408_AddBirthDateColumn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705160048501_PopulateBirthdateColumn.cs" />
+    <Compile Include="Migrations\201705160048501_PopulateBirthdateColumn.Designer.cs">
+      <DependentUpon>201705160048501_PopulateBirthdateColumn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705160102276_AddCustomerWithoutBirthdate.cs" />
+    <Compile Include="Migrations\201705160102276_AddCustomerWithoutBirthdate.Designer.cs">
+      <DependentUpon>201705160102276_AddCustomerWithoutBirthdate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -328,6 +348,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201705111815509_ForeginKeyFix.resx">
       <DependentUpon>201705111815509_ForeginKeyFix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705112304085_AddNameFieldToMemberShipType.resx">
+      <DependentUpon>201705112304085_AddNameFieldToMemberShipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705122107095_SetNamesOfMembershipTypes.resx">
+      <DependentUpon>201705122107095_SetNamesOfMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705122157408_AddBirthDateColumn.resx">
+      <DependentUpon>201705122157408_AddBirthDateColumn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705160048501_PopulateBirthdateColumn.resx">
+      <DependentUpon>201705160048501_PopulateBirthdateColumn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705160102276_AddCustomerWithoutBirthdate.resx">
+      <DependentUpon>201705160102276_AddCustomerWithoutBirthdate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
