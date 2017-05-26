@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{8FCD453D-16C9-471C-A423-A3E40FE0FE7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stuff", "Stuff\Stuff.csproj", "{05A87F6E-F973-4856-9809-1BC63756EC14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FCD453D-16C9-471C-A423-A3E40FE0FE7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FCD453D-16C9-471C-A423-A3E40FE0FE7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FCD453D-16C9-471C-A423-A3E40FE0FE7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FCD453D-16C9-471C-A423-A3E40FE0FE7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05A87F6E-F973-4856-9809-1BC63756EC14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A87F6E-F973-4856-9809-1BC63756EC14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A87F6E-F973-4856-9809-1BC63756EC14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A87F6E-F973-4856-9809-1BC63756EC14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
