@@ -21,11 +21,13 @@ namespace Vidly
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js",
+                      "~/scripts/bootbox.js",
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap-superhero.css",
                       "~/Content/site.css"));
+            
         }
     }
 }
